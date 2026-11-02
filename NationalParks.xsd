@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
-  <!-- this is a global element, so it is the only legal document root.
+  <!-- this is a global element, so it is the only legal document root.-->
       
   <xs:element name="NationalParks">
     <xs:complexType>
@@ -19,7 +19,7 @@
                     <xs:element name="Street" type="xs:string"/>
                     <xs:element name="City"   type="xs:string"/>
                     <xs:element name="State"  type="xs:string"/>
-                    <!-- An int instead of string here would drop the leading zero. Fixed
+                    <!-- An int instead of string here would drop the leading zero. Fixed-->
                     <xs:element name="Zip"    type="xs:string"/>
                   </xs:sequence>
                   <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
